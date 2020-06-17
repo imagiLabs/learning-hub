@@ -1,0 +1,32 @@
+# Example 1 for random.randrange()
+
+import random as r 
+# To use the random module, you have to import it into the beginning of your coding project. 
+# When you use functions from the library, you have to indicate that the function you are calling belongs to the random library. 
+# If you don't want to keep typing out random before all your functions, you can also import libraries as a shorter name so it is more efficient to use them, in this case you have to type: import [name of library] as [shorter chosen name] as you can see above.
+
+for i in range(0, 8):
+	m[i] [r.randrange(0, 7)]
+	# the third parameter is optional, in this case it’s automatically set to 1
+  
+# Example 2 for random.randrange()
+
+number = r.randrange(0,10) # you can choose any range here since we will display it as a string
+scrolling_text(str(number))
+
+# Example for random.randint()
+
+for i in range(0, 8):
+	m[i] [r.randint(0, 7)]
+  
+# Example for random.choice()
+
+fruit = ['apple', 'pear', 'peach', 'banana', 'cherry', 'watermelon']
+scrolling_text(r.choice(fruit))
+
+# Example for random.shuffle()
+
+letters = ['a', 'b', 'c']
+r.shuffle(letters)
+scrolling_text(letters)
+
